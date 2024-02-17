@@ -18,7 +18,7 @@ git diff --word-count
 
 - ``diff`` compares the staged and unstaged changes in the index and working directory
 
-- The version in the *index* is treated as *old* and *working directory*
+- The version in the *index* is treated as *old* and the *working directory*
 as *new*
 
 ### Staged Changes
@@ -29,7 +29,7 @@ git diff --cached # or --staged
 
 - ```--cached``` compares the *object database with the index*
 
-- That is, changes in the *index* are *new* whereas *object database* is the
+- That is, changes in the *index* are *new* whereas the *object database* is the
 *old* version
 
 ## Comparing Branches
