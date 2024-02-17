@@ -14,9 +14,16 @@ git diff --word-count
 
 ## Comparing Changes in Files
 
+```bash
+git diff [options] [path/to/file(s)]
+```
+
+If you do not specify the files you want to compare, git will output for all
+changed files
+
 ### Unstaged Changes
 
-- ``diff`` compares the staged and unstaged changes in the index and working directory
+- ``diff`` compares the changes in the index and working directory
 
 - The version in the *index* is treated as *old* and the *working directory*
 as *new*
