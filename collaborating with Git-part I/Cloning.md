@@ -1,7 +1,7 @@
 # Cloning Git Repositories
 
 ```bash
-$ git clone https://github.com/IshanKashyap01/working-with-remotes.git
+$ git clone https://github.com/IshanKashyap01/working-with-remotes.git # folder-name
 Cloning into 'working-with-remotes'...
 remote: Enumerating objects: 6, done.
 remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 6
@@ -19,6 +19,13 @@ repo on your machine
 
   3. Finally, it uses the ```git switch``` command to switch to the same branch
     that was checked out in the original
+
+- You can also give a name alongside the repo link if you want the repo to have
+a different name in your machine
+
+- Alternatively, you can just rename the folder after cloning
+
+- This is especially handy when you already have a directory with the same name
 
 ## Properties of a Clone
 
