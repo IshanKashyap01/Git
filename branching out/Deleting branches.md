@@ -1,5 +1,9 @@
 # Cleaning Up Branches
 
+```bash
+git branch [-d | -D] branch-1 branch-2...branch-n
+```
+
 ## Merged Branches
 
 - Once you have merged your branches, you no longer need the merged branch
