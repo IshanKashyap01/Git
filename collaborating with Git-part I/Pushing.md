@@ -1,6 +1,6 @@
 # Uploading Your Changes to The Remote Repository
 
-## Pushing Your Changes
+## Configure Your Push Settings
 
 ```bash
 $ git config --global push.default simple
@@ -8,8 +8,20 @@ $ git config push.default
 simple
 ```
 
-- Before you start pushing to remote, you should ensure your default push
-behaviour
+- Before you start pushing, make the above configuration change
+
+- The ```simple``` option of ```push``` means only the commits of the current branch
+will be pushed to the remote
+
+- Although the `push```` configuration is usually simple by default it's better
+to be safe than sorry
+
+- There are four other options with the push that you can check out, however, simple
+will cover most use cases
+
+- Therefore, it is recommended that you keep this setting
+
+## Pushing Your Changes
 
 ```bash
 git push # or git push origin/remote
@@ -17,6 +29,14 @@ git push # or git push origin/remote
 
 - The ```git push``` command allows you to synchronize your local changes with
 the remote
+
+- Every time you push, you'll be asked for your password by GitHub and you must
+provide it with a ```personal access token```
+
+- You can add your credentials to git via the ```credential.helper``` configuration
+or by using any other credential manager
+
+- This way, you can push w/o giving your ```personal access token```
 
 ### Public vs Private Commits
 
